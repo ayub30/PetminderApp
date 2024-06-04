@@ -1,0 +1,16 @@
+.big-con{
+    display: grid;
+    grid-template: calc(100vh - 64px) / 100%;
+    background-color: rgb(27, 27, 27);
+}
+.inbox{
+    border: solid white 2px;
+    background-color: rgb(27, 27, 27);
+    margin: 50px;
+    width: auto;
+    height: 600px;
+    min-width: 200px;
+    border-radius: 5px;
+    overflow-y: auto; 
+    overflow-x: hidden;
+}

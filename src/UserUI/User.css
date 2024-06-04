@@ -1,0 +1,8 @@
+.container{
+    display: grid;
+    grid-template: calc(100vh - 64px) / 100%;
+    background-color: rgb(27, 27, 27);
+}
+.Bar{
+    color: black;
+}
